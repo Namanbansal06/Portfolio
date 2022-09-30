@@ -13,6 +13,7 @@
 }
 nav{
     display: flex;
+    background-color: rgba(0, 0, 0, 0.379);
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
@@ -78,6 +79,11 @@ h4{
 }
 #about{
     width: 550px;
+}
+@media (max-width: 768px){
+    .main{
+        flex-direction: column;
+    }
 }
 .main{
     width: 1130px;
