@@ -26,6 +26,9 @@ nav{
     letter-spacing: 1px;
     cursor: pointer;
 }
+.lio{
+    color: rgba(194, 23, 23, 0.89);
+}
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -41,4 +44,66 @@ nav ul li a:hover{
     color: chartreuse;
     transition: .4s;
     font-size: large;
+}
+.HomePage{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.HomePage:hover{
+    cursor: pointer;
+}
+h1{
+    color: whitesmoke;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: azure;
+    font-size: 25px;
+}
+h4{
+    color: rgb(222, 40, 212);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.Myself{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.Myself img{
+    height: auto;
+    width: 430px;
+}
+#about{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#about h2{
+    color: wheat;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+#about h5{
+    color: wheat;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#about p{
+   color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 40px;    
 }
